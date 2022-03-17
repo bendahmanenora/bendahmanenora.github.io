@@ -1,0 +1,326 @@
+body{
+  display:flex ;
+  flex-direction: column;
+   font-family:'Poppins',sans-serif;
+   width: 100%;  
+}
+.bod-yn{
+background: #232958;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+color: white; 
+padding-left: 40px; 
+padding-right: 40px;
+font-family:'Poppins',sans-serif;     
+}
+/**************************************buton top*/
+.haut{
+  position: fixed;
+  
+  right: 10px;
+  
+  bottom: 20px;
+  
+  text-decoration: none;
+  
+  color: #88c487;
+  
+  width: 40px;
+  
+  height: 40px;
+  
+  font-size: 30px;
+  
+  text-align: center;
+  
+  border: double 5px #88c487;
+  
+  border-radius: 200px;
+  
+  }
+.menu-resu{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px; 
+  font-size: 1em;
+}
+.menu-resu *{
+  margin-left: 10px;
+}
+.menu{
+   display:flex;
+   flex-direction: row;
+  font-size: 1.3em;      
+}
+.menu *{
+  margin-left: 20px;
+}
+a {
+  text-decoration-line: none;
+  color: #88c487;
+}
+/*ici acceuil*/
+.acc {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  flex-direction: column ;
+  text-align: center;
+}
+.acc p{
+  color: white;
+}
+.presnter{
+ font-size: 3em;
+ justify-content:center ;
+}
+.p2{
+  display: flex;  
+  /*justify-content: space-between;*/
+  width: 90%;
+  flex-direction:column ;
+
+}
+.photo-mobile{
+ display: flex;
+ justify-content:space-around ;
+}
+.photo-mobile *{
+  max-width: 45%;
+}
+/*diplom formation*/
+.bloc{
+	display: flex;
+	/* justify-content: last baseline; */
+	text-align: center;
+	justify-content: space-around;
+
+}
+.titre{
+  text-align: center;
+	padding: 20px;
+	border-top: 1px solid white;
+}
+.bloc1{
+   box-shadow: 6px  6px 2px 2px gainsboro;
+   border-radius: 10%;
+   text-align: center;
+   max-width:20%;
+   padding: 40px;
+   font-size: 1.2em;
+}
+.bloc1:hover{
+	box-shadow: 0px  0px 6px 6px green;
+ /* border: 2mm solid green;*/
+ /* max-width:20%;*/
+
+}
+
+/**************************competence****************************/
+.competance {
+  padding: 10%;
+  /*text-align: center;*/
+  display: flex ;
+  justify-content:space-around ;
+ 
+
+}
+.bloc-competence{
+   padding: 10px;
+   border-radius: 100%;
+   box-shadow: 1px 1px 2px 2px gainsboro;
+   text-align: center;
+   min-width: 150px;
+   font-size: 2em;
+}
+.bloc-competence:hover{
+  box-shadow: 2px 2px 2px 6px yellowgreen;
+}
+h2{
+ font-size: 2em; 
+}
+.image{
+  display: flex;
+  flex-direction: column;
+  /*padding: 40px;*/
+}
+
+/*projet universitaire */
+/*************************site web*************************************/
+.sitweb{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  font-size: 1em; 
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.titre-sit{
+  text-align: center;
+  box-shadow: 0px  0px 6px 6px gainsboro;
+  border-radius: 30%;
+  min-width: 150px;
+  max-height: 150px;
+}
+.titre-sit:hover {
+box-shadow: 0px  0px 6px 6px yellowgreen;
+}
+.text-sit{
+  text-align: center;
+}
+/*******************pillulier************/
+.pilule{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+.texte-pilule{
+  text-align: center;
+  /*margin-right: 100px;*/
+  padding-top: 30px;
+  font-size: 1em;
+}
+/******************fautail roulant*/
+.fautail{
+display: felx;
+flex-direction: column;
+text-align: center;
+padding: 10px;
+border-bottom: 1px solid white;
+font-size: 1em;
+}
+.image-fautail{
+  padding-bottom: 30px;
+}
+.fautail a, .pilule a, .competance a, .bloc a, .text-sit a{
+  color: #88c487;
+}
+
+/*formulaire*/
+
+.formul-element{
+padding: 10px;
+ /* margin-top: 40px;
+  margin-bottom: 40px;*/
+  border-bottom: 1px solid white;
+}
+.formul-titre{
+  box-shadow: 4px 4px 4px 4px gainsboro;
+  padding-right: 50px;
+  padding-left: 60px;
+  border-radius: 10%;
+  text-align: center ;
+}
+.form-bloc{
+  display: flex;
+  flex-direction: column ;
+}
+.form-bloc *{
+  border-radius: 10%;
+  padding: 10px;
+}
+#buton:hover, #nom:hover, #email:hover, #message:hover  {
+  box-shadow: 4px 4px 4px 4px green;
+}
+#buton{
+width: 30%;
+margin-left: 120px;
+}
+/********footer*/
+
+.footer{
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+  /*border-top: 1px solid white;*/
+}
+/*                       accessibilite */
+.accessibilite{
+  position: fixed;
+  left: 10px;
+
+   top: 20px;
+}
+/*page page-pilule*/
+.page-pilule{
+  text-align: center;
+  font-size: 2em;
+  padding: 40px;
+  background: skyblue;
+}
+/***************version mobile ***********************************************************
+ * ********************************************************
+ * **********************************************************
+ * ***********************************************************
+ * ***********************************************************/
+ @media all and (max-width: 1000px){
+   /* menu*********************************** */
+   .menu-resu{
+		display: flex;
+		/* justify-content: space-between; */
+		padding-top: 20px; 
+	}
+	.menu-resu *{
+		margin-left: 3px;
+	}
+	.menu{
+	   display:flex;
+	   flex-direction: row ;    
+	}
+	.menu *{
+		margin-left: 5px;
+	}
+	.resu{
+		display: flex;
+		flex-direction: column;
+	}
+  .menu *:hover{
+    /*box-shadow: 1px  1px 2px 2px gainsboro;*/
+    margin-left: 5px;
+    color: yellowgreen;
+  }
+  /* di*s */
+  .titre{
+		text-align: center;
+		/* padding: 80px; */
+		border-top: 1px solid white;
+	}
+.bloc1{	
+	   box-shadow: 6px  6px 2px 2px gainsboro;
+	   border-radius: 10%;
+	   text-align: center;
+	   max-width:40%;
+	   padding: 30%;
+	}
+.bloc{
+	display: flex;
+	/* justify-content: last baseline; */
+	flex-direction: column;
+	text-align: center;
+
+}
+	
+
+.competance{
+ 	display: felx;
+ 	flex-direction: column ;
+ }
+
+.bloc-competence{
+   border-radius: 20%;
+   box-shadow: 1px 1px 2px 2px gainsboro;
+   text-align: center;
+   min-width: 1%;
+}
+.bloc-competence:hover{
+  box-shadow: 2px 2px 2px 6px yellowgreen;
+}
+/* sit web */
+.sitweb{
+	display: flex;
+	flex-direction: column;
+}
+}

@@ -1,0 +1,365 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+body{
+	display:flex ;
+	flex-direction: column;
+	 font-family:'Poppins',sans-serif;
+	 width: 100%;	 
+}
+.bod-yn{
+	/*background-color: #006978;*/
+	/*background: url(imgport/photo-back);*/
+background: #232958;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+color: white;	
+padding-left: 40px; 
+padding-right: 40px;
+font-family:'Poppins',sans-serif; 
+color: #a3a9b8;
+font-size: 1.3em;    
+}
+/**************************************buton top*****************************/
+.haut{
+position: fixed;
+
+right: 10px;
+
+bottom: 20px;
+
+text-decoration: none;
+
+color: #88c487;
+
+width: 40px;
+
+height: 40px;
+
+font-size: 30px;
+
+text-align: center;
+
+border: double 5px #88c487;
+
+border-radius: 200px;
+
+}
+/* ***********************menu et res */
+.github-img{
+	border-radius: 90%;
+}
+.menu-resu{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px; 
+}
+.menu-resu *{
+	margin-left: 10px;
+}
+.menu{
+   display:flex;
+   flex-direction: row ;    
+}
+.menu *{
+	margin-left: 20px;
+}
+.menu *:hover{
+	/*box-shadow: 1px  1px 2px 2px gainsboro;*/
+	margin-left: 20px;
+	color: yellowgreen;
+}
+ a{
+	text-decoration-line: none;
+	color: #88c487;
+}
+/*ici acceuil*/
+.acc {
+	display: flex;
+	justify-content: center;
+	/*padding: 40px;*/
+	flex-direction: column ;
+	text-align: center;
+}
+.img-profil{
+	border-radius: 100%;
+}
+.presnter{
+ font-size: 2em;
+ justify-content:center ;
+}
+.p2{
+	display: flex;	
+	width: 90%;
+	flex-direction:column ;
+}
+.photo-mobile{
+ display: flex;
+ justify-content:space-around ;
+}
+.photo-mobile *{
+	max-width: 45%;
+}
+/******Diplômes formation*/
+
+.titre{
+    text-align: center;
+	padding: 20px;
+	border-top: 1px solid white;
+}
+.bloc1{
+   box-shadow: 6px  6px 2px 2px gainsboro;
+   border-radius: 10%;
+   text-align: center;
+   max-width:20%;
+   padding: 40px;
+}
+.bloc1:hover{
+	box-shadow: 0px  0px 6px 6px green;
+ /* border: 2mm solid green;*/
+ /* max-width:20%;*/
+
+}
+.bloc{
+	display: flex;
+	/* justify-content: last baseline; */
+	text-align: center;
+	justify-content: space-around;
+	padding: 20px;
+
+}
+
+/**************************competence****************************/
+.trait{
+	border-top: 1px solid white;	
+}
+.competance {
+	/*text-align: center;*/
+	display: flex ;
+	justify-content:space-around ;
+}
+.bloc-competence{
+   padding: 10px;
+   border-radius: 100%;
+   box-shadow: 1px 1px 2px 2px gainsboro;
+   text-align: center;
+   min-width: 150px;
+}
+.bloc-competence:hover{
+  box-shadow: 2px 2px 2px 6px yellowgreen;
+}
+.image{
+	display: flex;
+	flex-direction: column;
+	/*padding: 40px;*/
+}
+
+/*projet universitaire */
+/*************************site web*************************************/
+.sitweb{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+	font-size: 0.8em;	
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
+.titre-sit{
+	text-align: center;
+	box-shadow: 0px  0px 6px 6px gainsboro;
+	border-radius: 30%;
+	min-width: 100px;
+	max-height: 100px;
+}
+.titre-sit:hover {
+box-shadow: 0px  0px 6px 6px yellowgreen;
+}
+.text-sit{
+	text-align: center;
+}
+/************pillulier************/
+.pilule{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border-bottom: 1px solid white;
+	padding-bottom:40px ;
+}
+.texte-pilule{
+	text-align: center;
+	/*margin-right: 100px;*/
+	padding-top: 30px;
+	font-size: 0.8em;
+}
+/******************fautail roulant*/
+.fautail{
+display: felx;
+flex-direction: column;
+text-align: center;
+padding: 10px;
+font-size: 0.8em;
+border-bottom: 1px solid white;
+}
+.image-fautail{
+	padding-bottom: 30px;
+}
+.fautail a, .pilule a, .competance a, .bloc a, .text-sit a{
+	color: #88c487;
+}
+
+/*formulaire*/
+
+.formul-element{
+padding: 10px;
+ /* margin-top: 40px;
+  margin-bottom: 40px;*/
+  border-bottom: 1px solid white;
+}
+.formul-titre{
+	box-shadow: 4px 4px 4px 4px gainsboro;
+	padding-right: 50px;
+	padding-left: 60px;
+	border-radius: 10%;
+	text-align: center ;
+}
+.form-bloc{
+	display: flex;
+	flex-direction: column ;
+}
+.form-bloc *{
+	border-radius: 10%;
+	padding: 10px;
+}
+#buton:hover, #nom:hover, #email:hover, #message:hover  {
+	box-shadow: 4px 4px 4px 4px green;
+}
+#buton{
+width: 30%;
+margin-left: 120px;
+}
+/********footer************************************/
+
+.footer{
+	text-align: center;
+	padding: 20px;
+
+}
+/*        *******accessibilite */
+.accessibilite{
+	position: fixed;
+	left: 10px;
+   top: 20px;
+   padding-left: 20px;
+}
+.bloc-accessibilite{
+	display: none;
+}
+.bloc-accessibilite *{
+	border-radius: 40%;
+	text-align: center;
+	padding: 15px;
+}
+.bloc-accessibilite *:hover{
+box-shadow: 4px 4px 2px 2px yellowgreen;
+width: 80%;
+}
+.accessibilite img:hover{
+box-shadow: 2px 2px 2px 2px yellowgreen;
+background: red;
+}
+#macheckbox:checked+.bloc-accessibilite{
+	display: flex;
+	flex-direction: column;
+}
+#macheckbox{
+	display: none;
+}
+.img-burger{
+	border-radius: 80%;
+}
+/*page page-pilule*/
+.page-pilule{
+	text-align: center;
+	font-size: 1.8em;
+	padding: 40px;
+	background: #15363d;
+	color: #a3a9b8;
+}
+.fil-arian{
+	border: 1px solid #a3a9b8;
+}
+/***************version mobile ***********************************************************
+ * ********************************************************
+ * **********************************************************
+ * ***********************************************************
+ * ***********************************************************/
+ /**/
+ @media all and (max-width:1000px){
+	 /* ********************menu  */
+	 .menu-resu{
+		display: flex;
+		/* justify-content: space-between; */
+		padding-top: 50px; 
+	}
+	.menu-resu *{
+		margin-left: 4px;
+	}
+	.menu{
+	   display:flex;
+	   flex-direction: row ;    
+	}
+	.menu *{
+		margin-left: 6px;
+	}
+	.resu{
+		display: flex;
+		flex-direction: column;
+	}
+	.menu *:hover{
+		/*box-shadow: 1px  1px 2px 2px gainsboro;*/
+		margin-left: 6px;
+		color: yellowgreen;
+	  }
+	 /* dipl */
+.titre{
+		text-align: center;
+		/* padding: 80px; */
+		border-top: 1px solid white;
+	}
+.bloc1{	
+	   box-shadow: 6px  6px 2px 2px gainsboro;
+	   border-radius: 10%;
+	   text-align: center;
+	   max-width:40%;
+	   padding: 10%;
+	}
+.bloc{
+	display: flex;
+	/* justify-content: last baseline; */
+	flex-direction: column;
+	text-align: center;
+
+}
+	
+
+.competance{
+ 	display: felx;
+ 	flex-direction: column ;
+ }
+
+.bloc-competence{
+   border-radius: 20%;
+   box-shadow: 1px 1px 2px 2px gainsboro;
+   text-align: center;
+   min-width: 1%;
+}
+.bloc-competence:hover{
+  box-shadow: 2px 2px 2px 6px yellowgreen;
+}
+/* sit web */
+.sitweb{
+	display: flex;
+	flex-direction: column;
+}
+
+
+}
