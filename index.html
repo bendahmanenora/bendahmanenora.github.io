@@ -96,8 +96,6 @@
 
 	<!-- p2 ************************************-->
 	<div class="p2">
-		<!-- <div><img src="imgport/photo-te" alt="photo-mobile" height="200">
-			<img src="imgport/photo2" alt="photo-mobile" height="200"> -->
 			<div class="photo-mobile">
 			<img src="imgport/htmlcss.svg" alt="logo-html" height="300" >
 			<img src="imgport/java.png" alt="logo-java" height="300"></div>
@@ -117,7 +115,7 @@
 	<div class="titre-sit"><h3>Site Web</h3></div>
     <div class="text-sit"><p> Création d'un site web accessible pour L'association (Adel) à but non lucratif 2021<br>
 		Réalisation d’un cahier des charges.<br>
-		Technologies utilisées<br>
+		Technologies utilisées:<br>
 		HTML, CSS, JavaScript, PHP/MySQL. Accessibilité
 		Zoom, contraste, liens d'évitement, taille de texte.<br> 
 <a href="https://handiman.univ-paris8.fr/~nora/web_serveur/site-web/" target="_self"> <strong> voir le site</strong></a></p></div>	
@@ -216,8 +214,8 @@ Notre solution se présente sous forme de boîtier où sont stockés les médica
    <button onclick="petittexte()">tailletext-</button> 
    <button onclick="grandcurseur()">Curseur +</button> 
    <button onclick="petitcurseur() ">Curseur -</button> 
-   <button onclick="themenoir()">contrast-</button> 
-   <button onclick="themeblanc()">contrast+</button> </div>
+   <button onclick="themeblanc()">contrast-</button> 
+   <button onclick="themenoir()">contrast+</button> </div>
 
 
    </div> 
@@ -284,7 +282,7 @@ document.getElementsByTagName("footer")[0].style.fontSize = taille + "em";
 document.getElementsByTagName("")[0].style.fontSize = taille + "em";
 }
 
-function themenoir(){
+function hemeblanc() {
 var fileref=document.createElement("link");
 fileref.setAttribute("rel", "stylesheet");
 
@@ -295,7 +293,7 @@ fileref.setAttribute("class", "theme");
 fileref.setAttribute("href", "contraset.css");
 document.getElementsByTagName("body")[0].appendChild(fileref);
 }
-function themeblanc() { 
+function tthemenoir(){ 
 var theme = document.querySelectorAll(".theme");
 theme.forEach(function(theme) {
 theme.parentNode.removeChild(theme);
