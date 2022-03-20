@@ -81,7 +81,8 @@ border-radius: 200px;
 	text-align: center;
 }
 .img-profil{
-	border-radius: 100%;
+	border-radius: 30%;
+	box-shadow: 9px -9px #a3a9b8;
 }
 .presnter{
  font-size: 2em;
