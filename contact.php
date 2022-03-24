@@ -1,19 +1,19 @@
  <link rel="stylesheet" type="text/css" href="portfolio.css">
  <?php 
+
                       if(isset($_POST['buton'])){
                       extract($_POST);
 
 
-                      if (!empty($nom) && !empty($email) && !empty($sujet) && !empty($message)){
+                             if (!empty($nom) && !empty($email) && !empty($message)){
                         
 
-                            include 'includes/database.php';
-                            global $db; 
-                             $q = $db->prepare('INSERT INTO utilisateur(nom,email,sujet,message) VALUES(?,?,?,?)');
+                            include 'database.php';
+                              global $db; 
+                             $q = $db->prepare('INSERT INTO formulaire(nom,email,message) VALUES(?,?,?)');
                              $q->execute([
                               $nom,
                               $email,
-                              $sujet,
                               $message,
                                ]); 
                              // header('Location: formulaire.php');
@@ -30,7 +30,7 @@
    
     <div class="formul-element">
 
-      <form  action="formulaire.php" method="post" autocomplete="off" >
+      <form  action="contact.php" method="post" autocomplete="off" >
 
          
       <div class="formul-titre"><h1>Me contacter</h1>
